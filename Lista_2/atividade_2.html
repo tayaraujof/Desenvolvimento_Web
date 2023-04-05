@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Black Pink</title>
+    
+</head>
+<body>
+    <h1 style="font-family: 'Cambria'; font-size: 40px; text-align: center;">Olá, bem vinde ao Banco Black Pink.</h1>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            font-size: 24px; 
+            text-align: center;
+        }
+    </style>
+    
+    <img src="../Lista_2/img/imagem.png" style="display: block; margin: 0 auto; width: 500px;">
+    
+    <br>
+</body>
+<script>
+    var nome = window.prompt('Qual é o seu nome completo')
+    var idade = Number.parseInt (window.prompt('Qual a sua idade?'))
+    var endereco = window.prompt('Qual o seu endereço?')
+    var telefone = Number.parseInt (window.prompt('Qual é o seu telefone?'))
+    var email = window.prompt('Qual o seu e-mail?')
+    var cpf = Number.parseInt (window.prompt('Qual é o seu cpf?'))
+
+    document.writeln('<p>Seu nome completo é: ' , nome, '.</p>')
+    document.writeln('<p>Você tem ' , idade, 'anos.', ' E mora na rua: ', endereco, '.</p>')
+    document.writeln('<p>Você deve usar o e-mail: ', email, '.</p>')
+    document.writeln('<p>Seu identificador unico é: ', cpf, '.</p>')
+    document.writeln('<p>Dados para contato: ', telefone, '</p>')
+</script>
+
+</html>
