@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme Favorito</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var nomeFilme = window.prompt('Qual é o seu filme favorito?')
+    var anoLancamento = Number.parseInt (window.prompt('Quando lançou esse filme?'))
+    var nomeProtagonista = window.prompt('Quem é o/a protagonista?')
+    var database = []
+
+    var filme = {
+        nome: nomeFilme,
+        lancamento: anoLancamento,
+        protagonista: nomeProtagonista,
+    }
+
+    database.push(filme)
+
+    document.writeln('Nome do Filme: ', database[0].nome)
+    document.writeln('Data de lançamento: ', database[0].lancamento)
+    document.writeln('<p>Nome do(a) protagonista: ', database[0].protagonista)
+    
+    
+</script>
+</html>
