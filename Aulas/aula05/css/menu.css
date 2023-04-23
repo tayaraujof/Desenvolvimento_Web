@@ -1,0 +1,23 @@
+#menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 15px;
+
+}
+
+.item-menu {
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-decoration: none;
+    color: #dad5d5;
+    font-family: 'Poltawski Nowy', serif;
+    margin-bottom: 20px;
+
+}
+.item-menu:hover{
+    color: gray;
+}
