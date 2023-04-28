@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #800000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.item-menu {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 80px;
+    transition: color 0.3s ease-in-out;
+}
+
+.item-menu:hover {
+    color: #ffd700;
+}
+
+.container {
+    background-color: #FFEBCD;
+    min-height: 60vh;
+    padding: 40px;
+    text-align: center;
+    line-height: 36px;
+
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.card {
+    width: 350px;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('./img/coxinha.jpeg');
+}
+
+#img-2 {
+    background-image: url('./img/bolinhoqueijo.jpg');
+}
+
+#img-3 {
+    background-image: url('./img/esfiha.jpg');
+}
+
+#img-4 {
+    background-image: url('./img/torta.jpg');
+}
+
+#img-5 {
+    background-image: url('./img/Pastel.jpg');
+}
+
+#img-6 {
+    background-image: url('./img/pizza.jpg');
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: #ffd700;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    border-top: 3px solid #333;
+    text-align: center;
+    padding: 80px;
+}
+  
